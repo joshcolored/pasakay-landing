@@ -2,7 +2,7 @@ const playStoreUrl = "https://play.google.com/store/apps/details?id=com.pasakay.
 const appStoreUrl = "https://apps.apple.com/us/search?term=PaSakay";
 const registrationUrl1 = "https://pasakay-registration.vercel.app/register/merchant";
 const registrationUrl2 = "https://pasakay-registration.vercel.app/register/driver";
-const privacyUrl = "https://pasakay-registration.vercel.app/privacy";
+const privacyUrl = "/privacy-policy";
 const supportEmail = "pasakayapplication@gmail.com";
 
 const screens = [
@@ -89,7 +89,7 @@ export default function Home() {
         >
           <a href="#features">Features</a>
           <a href="/support">Support</a>
-          <a href="#privacy">Privacy</a>
+          <a href="/privacy-policy">Privacy</a>
         </nav>
         <a
           className="inline-flex min-h-10 items-center justify-center rounded-lg bg-teal-900 px-4 text-sm font-extrabold leading-none text-white transition hover:-translate-y-0.5 min-[430px]:px-[18px]"
@@ -296,8 +296,6 @@ export default function Home() {
         <a
           className="font-black text-teal-900 underline decoration-2 underline-offset-4"
           href={privacyUrl}
-          target="_blank"
-          rel="noreferrer"
         >
           Read the full Privacy Policy
         </a>
@@ -343,7 +341,7 @@ export default function Home() {
             Google Play
           </a>
           <a href="/support">Support</a>
-          <a href="#privacy">Privacy</a>
+          <a href="/privacy-policy">Privacy</a>
         </div>
       </footer>
     </main>

@@ -20,7 +20,7 @@ export default function SupportPage() {
         </a>
         <nav className="hidden items-center gap-7 text-sm font-bold text-teal-700 md:flex" aria-label="Support navigation">
           <a href="/#features">Features</a>
-          <a href="/#privacy">Privacy</a>
+          <a href="/privacy-policy">Privacy</a>
         </nav>
         <a
           className="inline-flex min-h-10 items-center justify-center rounded-lg bg-teal-900 px-4 text-sm font-extrabold leading-none text-white transition hover:-translate-y-0.5"
