@@ -88,7 +88,7 @@ export default function Home() {
           aria-label="Primary navigation"
         >
           <a href="#features">Features</a>
-          <a href="#support">Support</a>
+          <a href="/support">Support</a>
           <a href="#privacy">Privacy</a>
         </nav>
         <a
@@ -256,7 +256,14 @@ export default function Home() {
           </p>
         </div>
         <div className="rounded-lg border border-white/20 bg-white/10 p-7">
-          <span className="mb-2 block font-black text-cream">Email support</span>
+          <span className="mb-2 block font-black text-cream">Support form</span>
+          <a
+            className="inline-flex min-h-12 items-center justify-center rounded-lg bg-white px-[22px] font-extrabold leading-none text-teal-900 transition hover:-translate-y-0.5"
+            href="/support"
+          >
+            Open support page
+          </a>
+          <span className="mb-2 mt-7 block font-black text-cream">Email support</span>
           <a
             className="block [overflow-wrap:anywhere] text-[clamp(1.18rem,2vw,1.5rem)] font-black text-white"
             href={`mailto:${supportEmail}`}
@@ -335,7 +342,7 @@ export default function Home() {
           <a href={playStoreUrl} target="_blank" rel="noreferrer">
             Google Play
           </a>
-          <a href="#support">Support</a>
+          <a href="/support">Support</a>
           <a href="#privacy">Privacy</a>
         </div>
       </footer>
