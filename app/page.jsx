@@ -1,5 +1,5 @@
 const playStoreUrl = "https://play.google.com/store/apps/details?id=com.pasakay.app&pcampaignid=web_share";
-const appStoreUrl = "https://apps.apple.com/us/search?term=PaSakay";
+const appStoreUrl = "https://apps.apple.com/us/app/pasakay-mobility-delivery/id6769614000";
 const registrationUrl1 = "https://pasakay-registration.vercel.app/register/merchant";
 const registrationUrl2 = "https://pasakay-registration.vercel.app/register/driver";
 const privacyUrl = "/privacy-policy";
